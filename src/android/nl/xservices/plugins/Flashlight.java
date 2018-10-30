@@ -1,5 +1,6 @@
 package nl.xservices.plugins;
 
+import org.elastos.trinity.dapprt.TrinityPlugin;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -23,7 +24,7 @@ import org.json.JSONException;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
-public class Flashlight extends CordovaPlugin {
+public class Flashlight extends TrinityPlugin {
 
   private static final String ACTION_AVAILABLE = "available";
   private static final String ACTION_SWITCH_ON = "switchOn";
