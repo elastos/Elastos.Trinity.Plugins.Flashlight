@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elastos/Flashlight-PhoneGap-Plugin.git"
+    "url": "git+https://github.com/elastos/Elastos.Trinity.Plugins.Flashlight.git"
   },
   "keywords": [
     "Torch",
