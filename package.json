@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-flashlight",
+  "name": "elastos-trinity-plugins-flashlight",
   "version": "3.2.0",
   "description": "This plugin allows you switch the Flashlight / Torch of your device on or off.",
   "cordova": {
