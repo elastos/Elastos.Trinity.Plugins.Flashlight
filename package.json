@@ -3,7 +3,7 @@
   "version": "3.2.0",
   "description": "This plugin allows you switch the Flashlight / Torch of your device on or off.",
   "cordova": {
-    "id": "cordova-plugin-flashlight",
+    "id": "elastos-trinity-plugins-flashlight",
     "platforms": [
       "ios",
       "android",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin.git"
+    "url": "https://github.com/elastos/Flashlight-PhoneGap-Plugin.git"
   },
   "keywords": [
     "Torch",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-flashlight"
+        id="elastos-trinity-plugins-flashlight"
         version="3.2.0">
 
   <name>Flashlight</name>
@@ -15,10 +15,6 @@
   <license>MIT</license>
 
   <keywords>Torch, Flashlight, Flash, Light</keywords>
-
-  <repo>https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin.git</repo>
-
-  <issue>https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin/issues</issue>
 
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
