@@ -1,6 +1,7 @@
 #import <Cordova/CDV.h>
+#import "TrinityPlugin.h"
 
-@interface Flashlight : CDVPlugin
+@interface Flashlight : TrinityPlugin
 
 - (void)available:(CDVInvokedUrlCommand*)command;
 - (void)switchOn:(CDVInvokedUrlCommand*)command;
