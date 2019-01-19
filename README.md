@@ -26,7 +26,7 @@ This plugin allows you to switch the flashlight / torch of the device on and off
 
 Latest stable version from npm:
 ```
-$ cordova plugin add cordova-plugin-flashlight
+$ cordova plugin add elastos-trinity-plugins-flashlight
 ```
 
 Bleeding edge version from Github:
@@ -39,7 +39,7 @@ $ cordova plugin add https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugi
 Flashlight works with PhoneGap build too! Compatible with PhoneGap 3.0.0 and up.
 Just add the following xml to your `config.xml` to always use the latest version of this plugin:
 ```xml
-<gap:plugin name="cordova-plugin-flashlight" source="npm" />
+<gap:plugin name="elastos-trinity-plugins-flashlight" source="npm" />
 ```
 
 ## 3. Usage
