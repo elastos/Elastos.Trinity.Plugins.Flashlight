@@ -24,15 +24,9 @@ This plugin allows you to switch the flashlight / torch of the device on and off
 
 ## 2. Installation
 
-Latest stable version from npm:
-```
-$ cordova plugin add elastos-trinity-plugins-flashlight
-```
+    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Flashlight
 
-Bleeding edge version from Github:
-```
-$ cordova plugin add https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin
-```
+    The plugins field of dapp manifest.json adds Flashlight values, such as "plugins": ["XXXX", "Flashlight", "XXXX"]
 
 ### PhoneGap Build
 
