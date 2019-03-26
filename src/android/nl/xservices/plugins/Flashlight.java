@@ -1,6 +1,6 @@
 package nl.xservices.plugins;
 
-import org.elastos.trinity.dapprt.TrinityPlugin;
+import org.elastos.trinity.runtime.TrinityPlugin;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.Context;
