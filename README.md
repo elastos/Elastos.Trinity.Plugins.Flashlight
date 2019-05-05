@@ -1,14 +1,14 @@
 # PhoneGap Flashlight / Torch plugin
 
-by [Eddy Verbruggen](http://www.x-services.nl) for iOS, Android and WP8
+by [Eddy Verbruggen](http://www.x-services.nl) for iOS and Android
 
-1. [Description](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#1-description)
-2. [Installation](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#2-installation)
-	2. [Automatically (CLI / Plugman)](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#automatically-cli--plugman)
-	2. [Manually](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#manually)
-	2. [PhoneGap Build](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#phonegap-build)
-3. [Usage](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#3-usage)
-4. [Credits](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#4-credits)
+1. [Description](https://github.com/elastos/Elastos-Trinity-Plugins-Flashlight#1-description)
+2. [Installation](https://github.com/elastos/Elastos-Trinity-Plugins-Flashlight#2-installation)
+	2. [Automatically (CLI / Plugman)](https://github.com/elastos/Elastos-Trinity-Plugins-Flashlight#automatically-cli--plugman)
+	2. [Manually](https://github.com/elastos/Elastos-Trinity-Plugins-Flashlight#manually)
+	2. [PhoneGap Build](https://github.com/elastos/Elastos-Trinity-Plugins-Flashlight#phonegap-build)
+3. [Usage](https://github.com/elastos/Elastos-Trinity-Plugins-Flashlight#3-usage)
+4. [Credits](https://github.com/elastos/Elastos-Trinity-Plugins-Flashlight#4-credits)
 
 ## 1. Description
 
@@ -17,24 +17,11 @@ This plugin allows you to switch the flashlight / torch of the device on and off
 * Works on iOS 5+
 * Works on Android 2+
 * Android 6+ runtime permissions are handled automatically
-* Works on WP8
 * Depends on capabilities of the device, so you can test it with an API call
-* Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman)
-* Pending review at [PhoneGap Build](https://build.phonegap.com/plugins)
 
 ## 2. Installation
 
-    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Flashlight
-
     The plugins field of dapp manifest.json adds Flashlight values, such as "plugins": ["XXXX", "Flashlight", "XXXX"]
-
-### PhoneGap Build
-
-Flashlight works with PhoneGap build too! Compatible with PhoneGap 3.0.0 and up.
-Just add the following xml to your `config.xml` to always use the latest version of this plugin:
-```xml
-<gap:plugin name="elastos-trinity-plugins-flashlight" source="npm" />
-```
 
 ## 3. Usage
 
@@ -73,7 +60,7 @@ window.plugins.flashlight.toggle(
 );
 ```
 
-To know if the flashlight is on or off you can call `isSwitchedOn` 
+To know if the flashlight is on or off you can call `isSwitchedOn`
 ```javascript
 window.plugins.flashlight.isSwitchedOn(); // returns true/false
 ```
